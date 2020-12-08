@@ -1,0 +1,5 @@
+*.npz
+*.zip
+*.vital
+*.pickle
+*.csv
