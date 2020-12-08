@@ -1,0 +1,15 @@
+*.npz
+*.zip
+*.vital
+*.pickle
+*.csv
+DL_model/1D-CNN_ECG/
+DL_model/1D-CNN_ECG+PPG/
+DL_model/1D-CNN_PPG/
+DL_model/dataset/
+DL_model/output_ecg/
+DL_model/output/
+!DL_model/1D-CNN_ECG/1D-CNN_ECG_randomSearch.ipynb
+!DL_model/1D-CNN_ECG+PPG/1D-CNN_ECG+PPG_randomSearch.ipynb
+!DL_model/1D_CNN_PPG/1D-CNN_PPG_randomSearch.ipynb
+
