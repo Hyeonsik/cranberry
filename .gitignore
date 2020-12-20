@@ -4,16 +4,6 @@
 *.pickle
 *.csv
 
-!DL_model/1D-CNN_ECG/1D-CNN_ECG_randomSearch.ipynb
-!DL_model/1D-CNN_ECG+PPG/1D-CNN_ECG+PPG_randomSearch.ipynb
-!DL_model/1D-CNN_ECG+PPG/1D-CNN_Inception_ECG+PPG_randomSearch.ipynb
-!DL_model/1D_CNN_PPG/1D-CNN_PPG_randomSearch.ipynb
-!DL_model/LSTM_ECG/LSTM_ECG_randomSearch.ipynb
-!DL_model/LSTM_PPG/LSTM_PPG_randomSearch.ipynb
-!DL_model/LSTM_PPG/LSTM_PPG_randomSearch2.ipynb
-!DL_model/1D-CNN_age+gender/1D-CNN_age+gender_randomSearch.ipynb
-!DL_model/1D-CNN_age+gender/1D-CNN_age+gender_pacu_randomSearch.ipynb
-
 DL_model/1D-CNN_ECG/
 DL_model/1D-CNN_ECG+PPG/
 DL_model/1D-CNN_PPG/
@@ -24,10 +14,11 @@ DL_model/prospective
 DL_model/dataset/
 DL_model/output_ecg/
 DL_model/output/
+
 !DL_model/1D-CNN_ECG/1D-CNN_ECG_randomSearch.ipynb
 !DL_model/1D-CNN_ECG+PPG/1D-CNN_ECG+PPG_randomSearch.ipynb
 !DL_model/1D-CNN_ECG+PPG/1D-CNN_Inception_ECG+PPG_randomSearch.ipynb
-!DL_model/1D_CNN_PPG/1D-CNN_PPG_randomSearch.ipynb
+!DL_model/1D-CNN_PPG/1D-CNN_PPG_randomSearch.ipynb
 !DL_model/LSTM_ECG/LSTM_ECG_randomSearch.ipynb
 !DL_model/LSTM_PPG/LSTM_PPG_randomSearch.ipynb
 !DL_model/LSTM_PPG/LSTM_PPG_randomSearch2.ipynb
