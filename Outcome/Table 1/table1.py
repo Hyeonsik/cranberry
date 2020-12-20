@@ -6,8 +6,8 @@ import tableone
 import datetime
 
 # +
-df = pd.read_csv('T1_contents_final.csv')
-df['event']=df['Value']>3
+df = pd.read_csv('T1_contents_20201211.csv')
+df['event']=df['Value']>=4
 df['event']=df['event'].astype(int)
 df['gender']=df['gender'].astype(str)
 
@@ -61,4 +61,4 @@ df_res = tableone.TableOne(df, columns=cols, categorical=categorical_cols, nonno
 print(non_normal_cols)
 
 # 결과 저장
-df_res.to_csv('result_final.csv')
+df_res.to_csv('result_20201211.csv')

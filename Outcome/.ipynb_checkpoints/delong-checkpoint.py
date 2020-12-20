@@ -1,3 +1,6 @@
+import scipy.stats as stat
+
+
 def roc_ci(y_true, y_pred):
     total = len(y_true)
     success = roc_auc_score(y_true, y_pred) * total

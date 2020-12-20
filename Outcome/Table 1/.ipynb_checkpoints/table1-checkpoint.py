@@ -6,8 +6,8 @@ import tableone
 import datetime
 
 # +
-df = pd.read_csv('T1_contents_final.csv')
-df['event']=df['Value']>4
+df = pd.read_csv('T1_contents_final_20201210.csv')
+df['event']=df['Value']>=4
 df['event']=df['event'].astype(int)
 df['gender']=df['gender'].astype(str)
 
