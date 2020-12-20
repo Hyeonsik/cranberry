@@ -12,4 +12,5 @@ DL_model/output/
 !DL_model/1D-CNN_ECG/1D-CNN_ECG_randomSearch.ipynb
 !DL_model/1D-CNN_ECG+PPG/1D-CNN_ECG+PPG_randomSearch.ipynb
 !DL_model/1D_CNN_PPG/1D-CNN_PPG_randomSearch.ipynb
-
+.ipynb_checkpoints
+**/*.ipynb_checkpoints/
