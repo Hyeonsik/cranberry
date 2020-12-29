@@ -14,6 +14,7 @@ DL_model/prospective
 DL_model/dataset/
 DL_model/output_ecg/
 DL_model/output/
+DL_model/cache
 
 !DL_model/1D-CNN_ECG/1D-CNN_ECG_randomSearch.ipynb
 !DL_model/1D-CNN_ECG+PPG/1D-CNN_ECG+PPG_randomSearch.ipynb

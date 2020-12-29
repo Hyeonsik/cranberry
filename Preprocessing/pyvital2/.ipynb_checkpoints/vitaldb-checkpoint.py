@@ -102,8 +102,9 @@ class VitalFile:
                 ret[sidx:eidx] = rec['val'][srecidx:erecidx]
 
             # gain offset 변환
-            ret *= trk['gain']
-            ret += trk['offset']
+            if trk['fmt'] > 2:
+                ret *= trk['gain']
+                ret += trk['offset']
 
             # 리샘플 변환
             if srate != int(1 / interval + 0.5):
